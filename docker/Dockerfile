@@ -6,4 +6,3 @@ RUN pip3 install --upgrade python-iptables cython
 
 RUN mkdir -p /scripts
 COPY src/*.sh /scripts/
-

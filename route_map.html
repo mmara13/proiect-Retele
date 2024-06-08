@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_304053706ea12c7bb306fa2281c4a8a0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_304053706ea12c7bb306fa2281c4a8a0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_304053706ea12c7bb306fa2281c4a8a0 = L.map(
+                "map_304053706ea12c7bb306fa2281c4a8a0",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dfbdeca752524a1371d203fcca3016e5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_dfbdeca752524a1371d203fcca3016e5.addTo(map_304053706ea12c7bb306fa2281c4a8a0);
+        
+    
+            var marker_39d8ccf67d08d746d4fa3bfba89aa485 = L.marker(
+                [50.1006, 8.7665],
+                {}
+            ).addTo(map_304053706ea12c7bb306fa2281c4a8a0);
+        
+    
+        var popup_d34237a118a097d58c2af8c4aa59adfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d82fd53b11e0873fe174ed4361e659a = $(`<div id="html_4d82fd53b11e0873fe174ed4361e659a" style="width: 100.0%; height: 100.0%;">Offenbach, Hesse, DE</div>`)[0];
+                popup_d34237a118a097d58c2af8c4aa59adfe.setContent(html_4d82fd53b11e0873fe174ed4361e659a);
+            
+        
+
+        marker_39d8ccf67d08d746d4fa3bfba89aa485.bindPopup(popup_d34237a118a097d58c2af8c4aa59adfe)
+        ;
+
+        
+    
+    
+            var marker_30391f1f9c126e36ba7fb91e73feacca = L.marker(
+                [50.1155, 8.6842],
+                {}
+            ).addTo(map_304053706ea12c7bb306fa2281c4a8a0);
+        
+    
+        var popup_5fe1313281fc6c9103d5591e88230688 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eae4727e9d9ad88b00ba4d73c4a8aa63 = $(`<div id="html_eae4727e9d9ad88b00ba4d73c4a8aa63" style="width: 100.0%; height: 100.0%;">Frankfurt am Main, Hesse, DE</div>`)[0];
+                popup_5fe1313281fc6c9103d5591e88230688.setContent(html_eae4727e9d9ad88b00ba4d73c4a8aa63);
+            
+        
+
+        marker_30391f1f9c126e36ba7fb91e73feacca.bindPopup(popup_5fe1313281fc6c9103d5591e88230688)
+        ;
+
+        
+    
+    
+            var marker_e61a7726ab5471ea5f8ed397bee51e54 = L.marker(
+                [50.1155, 8.6842],
+                {}
+            ).addTo(map_304053706ea12c7bb306fa2281c4a8a0);
+        
+    
+        var popup_ab71f39028557fb046dc206dd63f1604 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b201d5cdf9068ef209d93738e16d079 = $(`<div id="html_3b201d5cdf9068ef209d93738e16d079" style="width: 100.0%; height: 100.0%;">Frankfurt am Main, Hesse, DE</div>`)[0];
+                popup_ab71f39028557fb046dc206dd63f1604.setContent(html_3b201d5cdf9068ef209d93738e16d079);
+            
+        
+
+        marker_e61a7726ab5471ea5f8ed397bee51e54.bindPopup(popup_ab71f39028557fb046dc206dd63f1604)
+        ;
+
+        
+    
+    
+            var marker_0c4517fd2cf5d87c6512dc706bd58a77 = L.marker(
+                [50.1155, 8.6842],
+                {}
+            ).addTo(map_304053706ea12c7bb306fa2281c4a8a0);
+        
+    
+        var popup_15524a1fb4bcb23eeed37a044742f0d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0868944f37e9330b52c60573d39c46c = $(`<div id="html_a0868944f37e9330b52c60573d39c46c" style="width: 100.0%; height: 100.0%;">Frankfurt am Main, Hesse, DE</div>`)[0];
+                popup_15524a1fb4bcb23eeed37a044742f0d5.setContent(html_a0868944f37e9330b52c60573d39c46c);
+            
+        
+
+        marker_0c4517fd2cf5d87c6512dc706bd58a77.bindPopup(popup_15524a1fb4bcb23eeed37a044742f0d5)
+        ;
+
+        
+    
+    
+            var marker_532dc7af750f12863e9e678535819bfe = L.marker(
+                [32.3972, 119.4358],
+                {}
+            ).addTo(map_304053706ea12c7bb306fa2281c4a8a0);
+        
+    
+        var popup_3c7eba88b0aaace2378303c962dc79b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc44582d5ed5133bad2e974716f21a11 = $(`<div id="html_fc44582d5ed5133bad2e974716f21a11" style="width: 100.0%; height: 100.0%;">Yangzhou, Jiangsu, CN</div>`)[0];
+                popup_3c7eba88b0aaace2378303c962dc79b1.setContent(html_fc44582d5ed5133bad2e974716f21a11);
+            
+        
+
+        marker_532dc7af750f12863e9e678535819bfe.bindPopup(popup_3c7eba88b0aaace2378303c962dc79b1)
+        ;
+
+        
+    
+    
+            var marker_5ad1630eedcc3d05d815d959c0f7c00f = L.marker(
+                [31.2222, 121.4581],
+                {}
+            ).addTo(map_304053706ea12c7bb306fa2281c4a8a0);
+        
+    
+        var popup_660808c14cb6f1086fbb1cdbd93f51d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99c2c002e36a1affbc175c0c74203664 = $(`<div id="html_99c2c002e36a1affbc175c0c74203664" style="width: 100.0%; height: 100.0%;">Shanghai, Shanghai, CN</div>`)[0];
+                popup_660808c14cb6f1086fbb1cdbd93f51d5.setContent(html_99c2c002e36a1affbc175c0c74203664);
+            
+        
+
+        marker_5ad1630eedcc3d05d815d959c0f7c00f.bindPopup(popup_660808c14cb6f1086fbb1cdbd93f51d5)
+        ;
+
+        
+    
+    
+            var marker_30c426d89d1bd3da9c53e6a1310ca944 = L.marker(
+                [29.5603, 106.5577],
+                {}
+            ).addTo(map_304053706ea12c7bb306fa2281c4a8a0);
+        
+    
+        var popup_b4b00caa46337b953b53117ce9938cc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50abe68b7888daf8955403d013bcc893 = $(`<div id="html_50abe68b7888daf8955403d013bcc893" style="width: 100.0%; height: 100.0%;">Chongqing, Chongqing, CN</div>`)[0];
+                popup_b4b00caa46337b953b53117ce9938cc9.setContent(html_50abe68b7888daf8955403d013bcc893);
+            
+        
+
+        marker_30c426d89d1bd3da9c53e6a1310ca944.bindPopup(popup_b4b00caa46337b953b53117ce9938cc9)
+        ;
+
+        
+    
+    
+            var marker_ab0f79b910a3a720663932f1fdd8f8df = L.marker(
+                [30.6667, 104.0667],
+                {}
+            ).addTo(map_304053706ea12c7bb306fa2281c4a8a0);
+        
+    
+        var popup_029f613f3ae535de6f0dd0d4fe8b5435 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f12ecd5679bfcb3e82dd399441d60b04 = $(`<div id="html_f12ecd5679bfcb3e82dd399441d60b04" style="width: 100.0%; height: 100.0%;">Chengdu, Sichuan, CN</div>`)[0];
+                popup_029f613f3ae535de6f0dd0d4fe8b5435.setContent(html_f12ecd5679bfcb3e82dd399441d60b04);
+            
+        
+
+        marker_ab0f79b910a3a720663932f1fdd8f8df.bindPopup(popup_029f613f3ae535de6f0dd0d4fe8b5435)
+        ;
+
+        
+    
+</script>
+</html>
